@@ -1,0 +1,253 @@
+.header__div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--primary-soft-red);
+  border-radius: 16px;
+  padding: .8rem 1.5rem;
+  color: white;
+}
+
+.header__div-text-balance {
+  font-size: 13px;
+}
+
+.header__div-text-amount {
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 5px;
+}
+
+.main__div {
+  background: var(--neutral-very-pale-orange);
+  padding: 2rem;
+  border-radius: 16px;
+  margin-top: 20px;
+  min-width: 375px;
+}
+
+.main__div h2 {
+  color: var(--neutral-dark-brown);
+  margin-bottom: 50px;
+}
+
+.main__div-graphs {
+  display: flex;
+  gap: 18px;
+  margin-bottom: 20px;
+}
+
+.main__div-graphs-mon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.main__div-graphs-mon div {
+  height: 36px;
+  width: 36px;
+  background: var(--primary-soft-red);
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+}
+.main__div-graphs-mon div:hover {
+  opacity: 0.7;
+}
+.main__div-graphs-mon div:hover::before {
+  content: "17.45";
+  position: absolute;
+  top: -35px;
+  background: var(--neutral-dark-brown);
+  padding: 4px;
+  border-radius: 4px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  opacity: 1;
+}
+
+.main__div-graphs-mon p {
+  font-size: 13px;
+  color: var(--neutral-med-brown);
+  margin-top: 5px;
+}
+
+.main__div-graphs-tue {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.main__div-graphs-tue div {
+  height: 70px;
+  width: 36px;
+  background: var(--primary-soft-red);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.main__div-graphs-tue div:hover {
+  opacity: 0.7;
+}
+
+.main__div-graphs-tue p {
+  font-size: 13px;
+  color: var(--neutral-med-brown);
+  margin-top: 5px;
+}
+
+.main__div-graphs-wed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.main__div-graphs-wed div {
+  height: 110px;
+  width: 36px;
+  background: var(--primary-cyan);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.main__div-graphs-wed div:hover {
+  opacity: 0.7;
+}
+
+.main__div-graphs-wed p {
+  font-size: 13px;
+  color: var(--neutral-med-brown);
+  margin-top: 5px;
+}
+
+.main__div-graphs-thu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.main__div-graphs-thu div {
+  height: 64px;
+  width: 36px;
+  background: var(--primary-soft-red);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.main__div-graphs-thu div:hover {
+  opacity: 0.7;
+}
+
+.main__div-graphs-thu p {
+  font-size: 13px;
+  color: var(--neutral-med-brown);
+  margin-top: 5px;
+}
+
+.main__div-graphs-fri {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.main__div-graphs-fri div {
+  height: 48px;
+  width: 36px;
+  background: var(--primary-soft-red);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.main__div-graphs-fri div:hover {
+  opacity: 0.7;
+}
+
+.main__div-graphs-fri p {
+  font-size: 13px;
+  color: var(--neutral-med-brown);
+  margin-top: 5px;
+}
+
+.main__div-graphs-sat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.main__div-graphs-sat div {
+  height: 90px;
+  width: 36px;
+  background: var(--primary-soft-red);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.main__div-graphs-sat div:hover {
+  opacity: 0.7;
+}
+
+.main__div-graphs-sat p {
+  font-size: 13px;
+  color: var(--neutral-med-brown);
+  margin-top: 5px;
+}
+
+.main__div-graphs-sun {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.main__div-graphs-sun div {
+  height: 55px;
+  width: 36px;
+  background: var(--primary-soft-red);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.main__div-graphs-sun div:hover {
+  opacity: 0.7;
+}
+
+.main__div-graphs-sun p {
+  font-size: 13px;
+  color: var(--neutral-med-brown);
+  margin-top: 5px;
+}
+
+.main__div-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.main__div-info_total {
+  color: var(--neutral-med-brown);
+}
+
+.main__div-info-amount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main__div-info-amount_money {
+  font-size: 42px;
+  font-weight: 700;
+  color: var(--neutral-dark-brown);
+} 
+
+.main__div-info-amount_change {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  color: var(--neutral-med-brown);
+}
+
+.main__div-info-amount_change span {
+  font-weight: 700;
+  color: var(--neutral-dark-brown);
+}
